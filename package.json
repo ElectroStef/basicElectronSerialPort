@@ -1,0 +1,20 @@
+{
+  "name": "SerialPortComm",
+  "version": "1.0.1",
+  "description": "A minimal Electron application with node serialport",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "install": "electron-rebuild"
+  },
+  "author": "Stefan Tomovic",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-rebuild": "^1.6.0"
+  },
+  "dependencies": {
+    "data-table": "^2.0.0",
+    "serialport": "^4.0.7"
+  }
+}
